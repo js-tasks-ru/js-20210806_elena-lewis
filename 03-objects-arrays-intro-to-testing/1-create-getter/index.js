@@ -4,6 +4,7 @@
  * @returns {function} - function-getter which allow get value from object by set path
  */
 export function createGetter(path) {
+
   return function createGet(obj) {
     const array = path.split(".");
     let objCopy = obj;
@@ -19,4 +20,5 @@ export function createGetter(path) {
   }
 }
 
+}
 

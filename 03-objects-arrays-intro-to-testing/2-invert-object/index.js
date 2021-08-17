@@ -5,6 +5,7 @@
  */
 export function invertObj(obj) {
 
+
   if(obj){
     const arrayKey = Object.keys(obj);
     const arrayVal = Object.values(obj);
@@ -18,4 +19,5 @@ export function invertObj(obj) {
   }
 
   return obj;
+
 }
