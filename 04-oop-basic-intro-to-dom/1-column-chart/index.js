@@ -1,5 +1,6 @@
 export default class ColumnChart {
 
+
   constructor(dataAll = {}) {
 
       (this.data = dataAll.data || []),
@@ -77,4 +78,7 @@ export default class ColumnChart {
   }
 
 
+
+
+}
 
