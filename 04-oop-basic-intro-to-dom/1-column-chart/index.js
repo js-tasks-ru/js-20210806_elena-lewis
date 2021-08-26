@@ -82,5 +82,5 @@ export default class ColumnChart {
 
 
 
-}
+
 
