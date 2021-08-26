@@ -1,5 +1,6 @@
 export default class ColumnChart {
 
+
   constructor({data = [], label = '',
               value = '', link = '',
               formatHeading = data => data,} = {}) {
@@ -11,7 +12,7 @@ export default class ColumnChart {
         this.formatHeading = formatHeading;
         this.chartHeight = 50;
         this.render();
-    }
+	}
 
     render()
     {
@@ -79,4 +80,7 @@ export default class ColumnChart {
   }
 
 
+
+
+}
 
